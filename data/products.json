@@ -1,0 +1,254 @@
+[
+  {
+    "name": "dell g15 5520 gaming laptop",
+    "brand": "Dell",
+    "category": "Laptop",
+    "price": 1099
+  },
+  {
+    "name": "dell inspiron 7573 convertible 2-in-1 laptop",
+    "brand": "Dell",
+    "category": "Laptop",
+    "price": 899
+  },
+  {
+    "name": "lenovo ideapad gaming 3 15arh7 - ryzen 7 7735hs",
+    "brand": "Lenovo",
+    "category": "Laptop",
+    "price": 849
+  },
+  {
+    "name": "ideapad gaming 3, amd ryzen 7 7735hs, 16gb ddr5-4800",
+    "brand": "Lenovo",
+    "category": "Laptop",
+    "price": 869
+  },
+  {
+    "name": "Dell XPS 15 (2024)",
+    "brand": "Dell",
+    "category": "Laptop",
+    "price": 1499
+  },
+  {
+    "name": "MacBook Pro 16-inch (M3)",
+    "brand": "Apple",
+    "category": "Laptop",
+    "price": 2499
+  },
+  {
+    "name": "Lenovo ThinkPad X1 Carbon Gen 12",
+    "brand": "Lenovo",
+    "category": "Laptop",
+    "price": 1799
+  },
+  {
+    "name": "HP Spectre x360 14",
+    "brand": "HP",
+    "category": "Laptop",
+    "price": 1399
+  },
+  {
+    "name": "Asus ROG Zephyrus G14",
+    "brand": "Asus",
+    "category": "Laptop",
+    "price": 1599
+  },
+  {
+    "name": "apple iphone 15 pro 256gb (natural titanium, 5g)",
+    "brand": "Apple",
+    "category": "Smartphone",
+    "price": 1199
+  },
+  {
+    "name": "oppo a18 dual sim (4gb ram, 64gb)",
+    "brand": "Oppo",
+    "category": "Smartphone",
+    "price": 149
+  },
+  {
+    "name": "iphone 16 256 gb: 5g mobile phone",
+    "brand": "Apple",
+    "category": "Smartphone",
+    "price": 1299
+  },
+  {
+    "name": "apple iphone 13 (128gb) - starlight",
+    "brand": "Apple",
+    "category": "Smartphone",
+    "price": 699
+  },
+  {
+    "name": "apple iphone 16 pro max (256 gb) - black titanium",
+    "brand": "Apple",
+    "category": "Smartphone",
+    "price": 1399
+  },
+  {
+    "name": "oppo reno10 pro 5g 256gb 12gb silvery grey",
+    "brand": "Oppo",
+    "category": "Smartphone",
+    "price": 549
+  },
+  {
+    "name": "samsung galaxy m55 5g, android smartphone",
+    "brand": "Samsung",
+    "category": "Smartphone",
+    "price": 399
+  },
+  {
+    "name": "xiaomi redmi note 14 smartphone",
+    "brand": "Xiaomi",
+    "category": "Smartphone",
+    "price": 249
+  },
+  {
+    "name": "Apple iPhone 15 Pro Max",
+    "brand": "Apple",
+    "category": "Smartphone",
+    "price": 1199
+  },
+  {
+    "name": "Samsung Galaxy S23 Ultra",
+    "brand": "Samsung",
+    "category": "Smartphone",
+    "price": 1149
+  },
+  {
+    "name": "Google Pixel 8 Pro",
+    "brand": "Google",
+    "category": "Smartphone",
+    "price": 999
+  },
+  {
+    "name": "OnePlus 13T",
+    "brand": "OnePlus",
+    "category": "Smartphone",
+    "price": 699
+  },
+  {
+    "name": "Sony Xperia 1 V",
+    "brand": "Sony",
+    "category": "Smartphone",
+    "price": 1299
+  },
+  {
+    "name": "apple watch series 9 gps 45mm (starlight)",
+    "brand": "Apple",
+    "category": "Smartwatch",
+    "price": 429
+  },
+  {
+    "name": "huawei watch gt 4 41mm smart watch (light gold)",
+    "brand": "Huawei",
+    "category": "Smartwatch",
+    "price": 249
+  },
+  {
+    "name": "Apple Watch Series 9",
+    "brand": "Apple",
+    "category": "Smartwatch",
+    "price": 429
+  },
+  {
+    "name": "Samsung Galaxy Watch 6",
+    "brand": "Samsung",
+    "category": "Smartwatch",
+    "price": 299
+  },
+  {
+    "name": "Garmin Venu 3",
+    "brand": "Garmin",
+    "category": "Smartwatch",
+    "price": 399
+  },
+  {
+    "name": "Huawei Watch GT 4",
+    "brand": "Huawei",
+    "category": "Smartwatch",
+    "price": 249
+  },
+  {
+    "name": "Fitbit Charge 6",
+    "brand": "Fitbit",
+    "category": "Fitness Tracker",
+    "price": 159
+  },
+  {
+    "name": "sony ps5 slim (international) disc version",
+    "brand": "Sony",
+    "category": "Gaming Console",
+    "price": 499
+  },
+  {
+    "name": "microsoft xbox series x 1tb disc console",
+    "brand": "Microsoft",
+    "category": "Gaming Console",
+    "price": 499
+  },
+  {
+    "name": "Sony PlayStation 5 Slim",
+    "brand": "Sony",
+    "category": "Gaming Console",
+    "price": 499
+  },
+  {
+    "name": "Microsoft Xbox Series X",
+    "brand": "Microsoft",
+    "category": "Gaming Console",
+    "price": 499
+  },
+  {
+    "name": "Nintendo Switch OLED",
+    "brand": "Nintendo",
+    "category": "Gaming Console",
+    "price": 349
+  },
+  {
+    "name": "Valve Steam Deck OLED",
+    "brand": "Valve",
+    "category": "Gaming Console",
+    "price": 549
+  },
+  {
+    "name": "k20 gaming headset (wired, pc)",
+    "brand": "Onikuma",
+    "category": "Gaming Accessories",
+    "price": 39
+  },
+  {
+    "name": "Meta Quest 3",
+    "brand": "Meta",
+    "category": "VR Headset",
+    "price": 499
+  },
+  {
+    "name": "jbl tune 520bt wireless headphones (purple)",
+    "brand": "JBI",
+    "category": "Headphones",
+    "price": 59
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "brand": "Sony",
+    "category": "Headphones",
+    "price": 399
+  },
+  {
+    "name": "Bose QuietComfort Ultra",
+    "brand": "Bose",
+    "category": "Headphones",
+    "price": 429
+  },
+  {
+    "name": "samsung galaxy tab s9 ultra",
+    "brand": "Samsung",
+    "category": "Tablet",
+    "price": 1199
+  },
+  {
+    "name": "apple ipad 2022 (10th gen, 256gb, 5g)",
+    "brand": "Apple",
+    "category": "Tablet",
+    "price": 679
+  }
+]
