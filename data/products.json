@@ -1,254 +1,214 @@
+
 [
   {
+    "id":"66fc0bd9e28a330b4311c30b",
     "name": "dell g15 5520 gaming laptop",
-    "brand": "Dell",
-    "category": "Laptop",
-    "price": 1099
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1727794136/Depi/E-commerce/categories/Images/xrB0z/products/9JHGi/okttinsbywuyah0hvwag.jpg",
+    "price": 1783,
+    "description": "DELL5520 G15 Gaming Laptop With 15.6 Inch Intel Core i7-12700H/16GB RAM/512 GB SSD/6 GB Nvidia GeForce RTX 3060 Series/Ubuntu English Black/Dark Shadow Grey",
+    "brand": "dell",
+    "category": "laptops",
+    "discount": 10
   },
   {
+    "id":"66fc0d2551b86d0b9c588e6e",
     "name": "dell inspiron 7573 convertible 2-in-1 laptop",
-    "brand": "Dell",
-    "category": "Laptop",
-    "price": 899
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1727794468/Depi/E-commerce/categories/Images/xrB0z/products/ZUcNE/wn8wwm5duqis2otx4pqt.jpg",
+    "price": 1333,
+    "description": "DELL Inspiron 7573 Convertible 2-In-1 Laptop With 15.6-Inch Display, Intel Core i5 Processor/8GB RAM/256GB SSD/Intel UHD Graphics 620 Windows 10 Silver",
+    "brand": "dell",
+    "category": "laptops",
+    "discount": 1
   },
   {
-    "name": "lenovo ideapad gaming 3 15arh7 - ryzen 7 7735hs",
-    "brand": "Lenovo",
-    "category": "Laptop",
-    "price": 849
+    "id":"66fc0f2451b86d0b9c588e83" ,
+    "name": "sony ps5 slim (international) disc version.",
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1727794979/Depi/E-commerce/categories/Images/8LpQk/products/zJ1fJ/qmgwztzwpj7c8g0rxltn.jpg",
+    "price": 650,
+    "description": "Sony PlayStation 5 Slim Console (International Version) Disc Version With Controller - New Model 2023",
+    "brand": "sony",
+    "category": "video games",
+    "discount": 1
   },
   {
-    "name": "ideapad gaming 3, amd ryzen 7 7735hs, 16gb ddr5-4800",
-    "brand": "Lenovo",
-    "category": "Laptop",
-    "price": 869
+    "id":"66fc117e51b86d0b9c588ea1",
+    "name": "microsoft xbox series x 1tb disc console.",
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1727795581/Depi/E-commerce/categories/Images/8LpQk/products/dwsRy/ev2snneex5tjxnpmfyk7.png",
+    "price": 704,
+    "description": "Xbox Series X 1TB Console (Disc Version) With Controller",
+    "brand": "microsoft",
+    "category": "video games",
+    "discount": 15
   },
   {
-    "name": "Dell XPS 15 (2024)",
-    "brand": "Dell",
-    "category": "Laptop",
-    "price": 1499
+    "id":"66fc124151b86d0b9c588eab",
+    "name": "apple iphone 15 pro 256gb (natural titanium, 5g).",
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1727795776/Depi/E-commerce/categories/Images/ZC9hv/products/_QSDb/fhfdsocq22a97u5qxlr8.png",
+    "price": 1210,
+    "description": "Apple iPhone 15 Pro 256GB Natural Titanium 5G With FaceTime - Middle East Version",
+    "brand": "apple",
+    "category": "smart phones",
+    "discount": 1
   },
   {
-    "name": "MacBook Pro 16-inch (M3)",
-    "brand": "Apple",
-    "category": "Laptop",
-    "price": 2499
+    "id":"66fc12cc51b86d0b9c588ec9",
+    "name": "oppo a18 dual sim (4gb ram, 64gb).",
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1727795915/Depi/E-commerce/categories/Images/ZC9hv/products/GrBX-/cxcfxlt6fi57zlgfjucn.png",
+    "price": 117,
+    "description": "OPPO A18 Dual SIM Glowing Black 4GB RAM 64GB 4G LTE - Middle East Version",
+    "brand": "oppo",
+    "category": "smart phones",
+    "discount": 1
   },
   {
-    "name": "Lenovo ThinkPad X1 Carbon Gen 12",
-    "brand": "Lenovo",
-    "category": "Laptop",
-    "price": 1799
+    "id":"66fc13b551b86d0b9c588ef0",
+    "name": "jbl tune 520bt wireless headphones (purple).",
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1727796148/Depi/E-commerce/categories/Images/5xXNM/products/M3rpA/w9dl5a7wwjzuwr9kgmhg.png",
+    "price": 43,
+    "description": "JBL Tune 520Bt Wireless On-Ear Headphones, Pure Bass Sound, 57H Battery With Speed Charge, Hands-Free Call + Voice Aware, Multi-Point Connection, Lightweight And Foldable Purple",
+    "brand": "jbi",
+    "category": "head phone",
+    "discount": 1
   },
   {
-    "name": "HP Spectre x360 14",
-    "brand": "HP",
-    "category": "Laptop",
-    "price": 1399
+    "id":"66fc152851b86d0b9c588f15",
+    "name": "k20 gaming headset (wired, pc).",
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1727796519/Depi/E-commerce/categories/Images/5xXNM/products/mhBaJ/fvoneyarc6kdugymhtlv.png",
+    "price": 8,
+    "description": "K20 Gaming Wired Headset with Microphone for PC.",
+    "brand": "onikuma",
+    "category": "head phone",
+    "discount": 1
   },
   {
-    "name": "Asus ROG Zephyrus G14",
-    "brand": "Asus",
-    "category": "Laptop",
-    "price": 1599
+    "id":"66fc15d951b86d0b9c588f1d",
+    "name": "apple watch series 9 gps 45mm (starlight).",
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1727796696/Depi/E-commerce/categories/Images/asnIq/products/Hittg/x7spt10lgchv1jp01tkh.png",
+    "price": 456,
+    "description": "Apple Watch Series 9 GPS 45mm Starlight Aluminium Case With Starlight Sport Band",
+    "brand": "apple",
+    "category": "smart watches",
+    "discount": 1
   },
   {
-    "name": "apple iphone 15 pro 256gb (natural titanium, 5g)",
-    "brand": "Apple",
-    "category": "Smartphone",
-    "price": 1199
+    "id":"66fc165d51b86d0b9c588f25",
+    "name": "huawei watch gt 4 41mm smart watch (light gold).",
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1727796829/Depi/E-commerce/categories/Images/asnIq/products/qO8lo/oclsawxznh6ebd7mv3r2.png",
+    "price": 246,
+    "description": "HUAWEI WATCH GT 4 41mm Smart Watch, 7 Days Battery Life, Science-based Calorie Management, Pulse Wave Arrhythmia Analysis, TruSeen 5.5+ Heart Rate Monitor, Compatible with Android & iOS Light Gold",
+    "brand": "huawei",
+    "category": "smart watches",
+    "discount": 1
   },
   {
-    "name": "oppo a18 dual sim (4gb ram, 64gb)",
-    "brand": "Oppo",
-    "category": "Smartphone",
-    "price": 149
+    "id":"66fc173151b86d0b9c588f2f",
+    "name": "samsung galaxy tab s9 ultra.",
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1727797039/Depi/E-commerce/categories/Images/z49zU/products/rmCVg/x3p7capxyngra6c8pptm.png",
+    "price": 1119,
+    "description": "Samsung Galaxy Tab S9 Ultra Graphite 12GB RAM 256GB 5G - Middle East Version",
+    "brand": "samsung",
+    "category": "tablets",
+    "discount": 1
   },
   {
+    "id":"66fc179a51b86d0b9c588f38",
+    "name": "apple ipad 2022 (10th gen, 256gb, 5g).",
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1727797145/Depi/E-commerce/categories/Images/z49zU/products/aXZgQ/opue4uit6xg0ii8irhhu.png",
+    "price": 766,
+    "description": "Apple iPad 2022 (10th Generation) 10.9-inch 256GB 5G Silver - Middle East Version",
+    "brand": "apple",
+    "category": "tablets",
+    "discount": 1
+  },
+  {
+    "id":"67f7b54c98af410c93d60182",
     "name": "iphone 16 256 gb: 5g mobile phone",
-    "brand": "Apple",
-    "category": "Smartphone",
-    "price": 1299
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1744287051/Depi/E-commerce/categories/Images/ZC9hv/products/Ivyhn/y8bri5mxwenbz23edg5k.jpg",
+    "price": 1403,
+    "description": "Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly...",
+    "brand": "apple",
+    "category": "smart phones",
+    "discount": 1
   },
   {
+    "id":"67f7b8bbeb22946974428c1d",
     "name": "apple iphone 13 (128gb) - starlight",
-    "brand": "Apple",
-    "category": "Smartphone",
-    "price": 699
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1744288084/Depi/E-commerce/categories/Images/ZC9hv/products/dbK_J/srq2tlgp9sjgbzs2z5jk.jpg",
+    "price": 721.17,
+    "description": "6.1-inch Super Retina XDR display Cinematic mode adds shallow depth of field and shifts focus automatically...",
+    "brand": "apple",
+    "category": "smart phones",
+    "discount": 1
   },
   {
+    "id":"67f7bb803620949c6fcb0fcd",
     "name": "apple iphone 16 pro max (256 gb) - black titanium",
-    "brand": "Apple",
-    "category": "Smartphone",
-    "price": 1399
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1744289119/Depi/E-commerce/categories/Images/ZC9hv/products/Qalk2/twkoqqqxt2gzgfemq6of.jpg",
+    "price": 1577.84,
+    "description": "STUNNING TITANIUM DESIGN—iPhone 16 Pro Max has a strong and light titanium design with a larger 6.9-inch Super Retina XDR display...",
+    "brand": "apple",
+    "category": "smart phones",
+    "discount": 1
   },
   {
+    "id":"67f7bfc998af410c93d60515",
     "name": "oppo reno10 pro 5g 256gb 12gb silvery grey",
-    "brand": "Oppo",
-    "category": "Smartphone",
-    "price": 549
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1744289737/Depi/E-commerce/categories/Images/ZC9hv/products/Kn97G/gplh6vgoiuxwsql0tuhb.jpg",
+    "price": 409.32,
+    "description": "Octa-core (1x3.1 GHz Cortex-A78 & 3x3.0 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55) Fingerprint (under display)...",
+    "brand": "oppo",
+    "category": "smart phones",
+    "discount": 1
   },
   {
+    "id":"67f7cc24bf9736b4f936a137",
     "name": "samsung galaxy m55 5g, android smartphone",
-    "brand": "Samsung",
-    "category": "Smartphone",
-    "price": 399
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1744292899/Depi/E-commerce/categories/Images/ZC9hv/products/9DQBI/lyaidqxxuqn925a3nfoo.jpg",
+    "price": 1799,
+    "description": "All the power for your greatest pursuit. Widely enhanced and equipped with the Snapdragon 7 Gen 1 Mobile Platform...",
+    "brand": "samsung",
+    "category": "smart phones",
+    "discount": 1
   },
   {
+    "id":"67f7cebec027e95236cb6d7f",
     "name": "xiaomi redmi note 14 smartphone",
-    "brand": "Xiaomi",
-    "category": "Smartphone",
-    "price": 249
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1744293566/Depi/E-commerce/categories/Images/ZC9hv/products/8Vm87/epmfp70oouk4rmxm1zlx.jpg",
+    "price": 164.46,
+    "description": "108MP AI Camera System 5500 mAh battery with 33 W TurboCharge MediaTek Helio G99-Ultra...",
+    "brand": "xiaomi",
+    "category": "smart phones",
+    "discount": 1
   },
   {
-    "name": "Apple iPhone 15 Pro Max",
-    "brand": "Apple",
-    "category": "Smartphone",
-    "price": 1199
+    "id":"67f7d2c1e96235e83af5f190",
+    "name": "lenovo ideapad gaming 3 15arh7 - ryzen 7 7735hs",
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1744294906/Depi/E-commerce/categories/Images/xrB0z/products/nvp-A/vfmb8hxeaoyvzbiub9rs.jpg",
+    "price": 895.93,
+    "description": "AMD Ryzen 7 7735HS (8C / 16T, 3.2 / 4.75GHz, 4MB L2 / 16MB L3) NVIDIA GeForce RTX 4050 6GB GDDR6...",
+    "brand": "lenovo",
+    "category": "laptops",
+    "discount": 1
   },
   {
-    "name": "Samsung Galaxy S23 Ultra",
-    "brand": "Samsung",
-    "category": "Smartphone",
-    "price": 1149
+    "id":"67f7d9b8700eae8cb30aab60",
+    "name": "lenovo ideapad gaming 3, amd ryzen 7 7735hs, 16gb ddr5-4800",
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1744296375/Depi/E-commerce/categories/Images/xrB0z/products/ubL29/qyuwkpajxwdzbsgzipaj.jpg",
+    "price": 877.15,
+    "description": "Next-generation gaming performance with Ideapad Gaming 3 15.6-inch FHD (1920x1080) IPS 250nits...",
+    "brand": "lenovo",
+    "category": "laptops",
+    "discount": 1
   },
   {
-    "name": "Google Pixel 8 Pro",
-    "brand": "Google",
-    "category": "Smartphone",
-    "price": 999
-  },
-  {
-    "name": "OnePlus 13T",
-    "brand": "OnePlus",
-    "category": "Smartphone",
-    "price": 699
-  },
-  {
-    "name": "Sony Xperia 1 V",
-    "brand": "Sony",
-    "category": "Smartphone",
-    "price": 1299
-  },
-  {
-    "name": "apple watch series 9 gps 45mm (starlight)",
-    "brand": "Apple",
-    "category": "Smartwatch",
-    "price": 429
-  },
-  {
-    "name": "huawei watch gt 4 41mm smart watch (light gold)",
-    "brand": "Huawei",
-    "category": "Smartwatch",
-    "price": 249
-  },
-  {
-    "name": "Apple Watch Series 9",
-    "brand": "Apple",
-    "category": "Smartwatch",
-    "price": 429
-  },
-  {
-    "name": "Samsung Galaxy Watch 6",
-    "brand": "Samsung",
-    "category": "Smartwatch",
-    "price": 299
-  },
-  {
-    "name": "Garmin Venu 3",
-    "brand": "Garmin",
-    "category": "Smartwatch",
-    "price": 399
-  },
-  {
-    "name": "Huawei Watch GT 4",
-    "brand": "Huawei",
-    "category": "Smartwatch",
-    "price": 249
-  },
-  {
-    "name": "Fitbit Charge 6",
-    "brand": "Fitbit",
-    "category": "Fitness Tracker",
-    "price": 159
-  },
-  {
-    "name": "sony ps5 slim (international) disc version",
-    "brand": "Sony",
-    "category": "Gaming Console",
-    "price": 499
-  },
-  {
-    "name": "microsoft xbox series x 1tb disc console",
-    "brand": "Microsoft",
-    "category": "Gaming Console",
-    "price": 499
-  },
-  {
-    "name": "Sony PlayStation 5 Slim",
-    "brand": "Sony",
-    "category": "Gaming Console",
-    "price": 499
-  },
-  {
-    "name": "Microsoft Xbox Series X",
-    "brand": "Microsoft",
-    "category": "Gaming Console",
-    "price": 499
-  },
-  {
-    "name": "Nintendo Switch OLED",
-    "brand": "Nintendo",
-    "category": "Gaming Console",
-    "price": 349
-  },
-  {
-    "name": "Valve Steam Deck OLED",
-    "brand": "Valve",
-    "category": "Gaming Console",
-    "price": 549
-  },
-  {
-    "name": "k20 gaming headset (wired, pc)",
-    "brand": "Onikuma",
-    "category": "Gaming Accessories",
-    "price": 39
-  },
-  {
-    "name": "Meta Quest 3",
-    "brand": "Meta",
-    "category": "VR Headset",
-    "price": 499
-  },
-  {
-    "name": "jbl tune 520bt wireless headphones (purple)",
-    "brand": "JBI",
-    "category": "Headphones",
-    "price": 59
-  },
-  {
-    "name": "Sony WH-1000XM5",
-    "brand": "Sony",
-    "category": "Headphones",
-    "price": 399
-  },
-  {
-    "name": "Bose QuietComfort Ultra",
-    "brand": "Bose",
-    "category": "Headphones",
-    "price": 429
-  },
-  {
-    "name": "samsung galaxy tab s9 ultra",
-    "brand": "Samsung",
-    "category": "Tablet",
-    "price": 1199
-  },
-  {
-    "name": "apple ipad 2022 (10th gen, 256gb, 5g)",
-    "brand": "Apple",
-    "category": "Tablet",
-    "price": 679
+    "id":"67f7db4633c051fd67d1f646",
+    "name": "lenovo ideapad gaming 3, amd ryzen 7 7735hs",
+    "image":"https://res.cloudinary.com/decau6fvv/image/upload/v1744296773/Depi/E-commerce/categories/Images/xrB0z/products/7vrmw/ul21ycwh5utthensdp7o.jpg",
+    "price": 877.15,
+    "description": "Next-generation gaming performance with Ideapad Gaming 3 15.6-inch FHD (1920x1080) IPS 250nits...",
+    "brand": "lenovo",
+    "category": "laptops",
+    "discount": 1
   }
 ]
+
