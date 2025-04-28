@@ -8,29 +8,30 @@ const openai = new OpenAI({
 export async function compareProducts(query, products) {
   // تحويل بيانات المنتجات إلى نص لإرسالها مع الـ prompt
   const productsData = products
-    .map(p => `Product: ${p.name},id:${p.id},image:${p.image},Price: $${p.price}, Brand: ${p.brand}, Features: ${JSON.stringify(p.features)}`)
-    .join('.');
+    .map(p => `Product:${p.name},id:${p.id},image:${p.image},Price:$${p.price},Brand:${p.brand},`)
+    .join('');
 
   // إنشاء الـ prompt
   const prompt = `
- You are a smart assistant that analyzes what the user said in order to help them compare products.
+You are a smart assistant. Your ONLY job is to select the two most relevant products from the data below, and return them as a pure JSON array (no explanation, no text, no comments, no newlines, no markdown, no tags).
 
-Here is the data about the available products:${productsData}
-
+Here is the data about the available products: ${productsData}
 
 The user said: "${query}"
-Compare the following two products based on their brand, category, and price. Provide a recommendation on which product offers better value for money. Return the response in JSON format only, with fields for 'comparison' (containing product details and analysis) and 'recommendation' (indicating the better product and reason).
-Products:
+
+Return ONLY a JSON array of the two selected products, using the exact same fields as in the data above. Do NOT add any explanation, text, or extra fields. Do NOT add newlines, slashes, or markdown. Just the array.
+
+Example output:
 [
-1. {product1['name']},id{product1['id']},image{product1['image']},brand: {product1['brand']}, category: {product1['category']}, price: {product1['price']}.
-2. {product2['name']},id{product2['id']},image{product2['image']},brand: {product2['brand']}, category: {product2['category']}, price: {product2['price']}.
+  { "id": "...", "name": "...", "image": "...", "price": ..., "description": "...", "brand": "...", "category": "...", "discount": ... },
+  { "id": "...", "name": "...", "image": "...", "price": ..., "description": "...", "brand": "...", "category": "...", "discount": ... }
 ]
 `;
 
   const response = await openai.chat.completions.create({
     model: 'gpt-4o-mini', // استخدم gpt-3.5-turbo لأنه أرخص، أو gpt-4 لو عندك إمكانية
     messages: [
-      { role: 'system', content: prompt  },
+      { role: 'system', content: prompt },
       { role: 'user', content: "Please provide the comparison." },
     ],
     max_tokens: 500,
