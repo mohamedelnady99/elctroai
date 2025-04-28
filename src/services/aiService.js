@@ -12,21 +12,40 @@ export async function compareProducts(query, products) {
     .join('');
 
   // إنشاء الـ prompt
-  const prompt = `
-You are a smart assistant. Your ONLY job is to select the two most relevant products from the data below, and return them as a pure JSON array (no explanation, no text, no comments, no newlines, no markdown, no tags).
+//   const prompt = `
+// You are a smart assistant. Your ONLY job is to select the two most relevant products from the data below, and return them as a pure JSON array (no explanation, no text, no comments, no newlines, no markdown, no tags).
+
+// Here is the data about the available products: ${productsData}
+
+// The user said: "${query}"
+
+// Return ONLY a JSON array of the two selected products, using the exact same fields as in the data above. Do NOT add any explanation, text, or extra fields. Do NOT add newlines, slashes, or markdown. Just the array.
+
+// Example output:
+// [
+//   { "id": "...", "name": "...", "image": "...", "price": ..., "description": "...", "brand": "...", "category": "...", "discount": ... },
+//   { "id": "...", "name": "...", "image": "...", "price": ..., "description": "...", "brand": "...", "category": "...", "discount": ... }
+// ]
+// `;
+
+const prompt = `
+You are a smart assistant.
+ Your job is to select the most relevant products
+  from the data below based on the user's query,
+   and return them as a JSON object with the following structure:
+
+{
+  "products": [
+    { "id": "...", "name": "...", "image": "...", "price": ..., "description": "...", "brand": "...", "category": "...", "discount": ... },
+    { "id": "...", "name": "...", "image": "...", "price": ..., "description": "...", "brand": "...", "category": "...", "discount": ... }
+  ],
+  "summary": "ملخص المقارنة بين المنتجين",
+  "recommendation": "ترشيح للمنتج الأفضل بناءً على الطلب"
+}
 
 Here is the data about the available products: ${productsData}
 
-The user said: "${query}"
-
-Return ONLY a JSON array of the two selected products, using the exact same fields as in the data above. Do NOT add any explanation, text, or extra fields. Do NOT add newlines, slashes, or markdown. Just the array.
-
-Example output:
-[
-  { "id": "...", "name": "...", "image": "...", "price": ..., "description": "...", "brand": "...", "category": "...", "discount": ... },
-  { "id": "...", "name": "...", "image": "...", "price": ..., "description": "...", "brand": "...", "category": "...", "discount": ... }
-]
-`;
+The user said: "${query}" `;
 
   const response = await openai.chat.completions.create({
     model: 'gpt-4o-mini', // استخدم gpt-3.5-turbo لأنه أرخص، أو gpt-4 لو عندك إمكانية
